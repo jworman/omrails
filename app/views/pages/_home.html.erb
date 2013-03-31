@@ -1,12 +1,10 @@
 <% if user_signed_in?%>
-	<h1>Welcome to My first webb app!</h1>
+	<h1>Welcome to Gig World!</h1>
 <% else %>
 	<div class="hero-unit">
-		<h1>Welcome to One Month Rails!</h1>
+		<h1>Welcome to GIG WORLD!</h1>
 		<p>
-			You've found my home page for the
-			<%= link_to "One Month Rails", "http://onemonthrails.com" %>
-			application.
+			A place to brag about your lastest gig, Good or bad!
 		</p>
 		<p>
 			<%= link_to "Sign Up Now!", new_user_registration_path , class: "btn btn-primary btn-large"%>
